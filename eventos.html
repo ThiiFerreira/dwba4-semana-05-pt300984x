@@ -29,7 +29,7 @@
       <fieldset>
   
         <label for="eventos">Evento<label>
-        <select name="assunto">
+        <select name="assunto" required>
         <option value> -- Selecione --</option>
         <option value="voeSemAsa"> Voe sem asas </option>
         <option value="festaJun"> Festa Junina </option>
@@ -42,22 +42,22 @@
         <legend>Informações de Acesso</legend>
         <br>
         <label for="input_usuario">Usuário</label>
-        <input type="text" name="usuario" id="input_usuario"/><br><br>
+        <input type="text" name="usuario" id="input_usuario" required/><br><br>
         <label for="input_senha">Senha</label>
-        <input type="password" name="senha" id="input_senha"/><br><br>
+        <input type="password" name="senha" id="input_senha" required/><br><br>
         <label for="input_confimaSenha">Confirme a Senha</label>
-        <input type="password" name="confimaSenha" id="input_confimaSenha"/><br><br>
+        <input type="password" name="confimaSenha" id="input_confimaSenha" required/><br><br>
       </fieldset>
 
       <fieldset>
         <legend>Informações Pessoais</legend>
         <br>
         <label for="input_nomeCompleto"> Nome Completo </label>
-        <input type="text" name="nomeCompleto" id="input_nomeCompleto"><br><br>
+        <input type="text" name="nomeCompleto" id="input_nomeCompleto" required><br><br>
         <label for="input_email"> E-mail </label>
-        <input type="email" name="email" id="input_email"/><br><br>
-        <label for="input_numero"> Numero </label>
-        <input type="text" name="numero" id="input_numero"/> (99) 99999-9999
+        <input type="email" name="email" id="input_email" required/><br><br>
+        <label for="input_telefone"> Telefone </label>
+        <input type="tel" name="numero" id="input_telefone"/> (99) 99999-9999
         <br>
         <fieldset>
           <legend>Sexo</legend>
